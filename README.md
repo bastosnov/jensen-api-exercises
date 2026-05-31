@@ -2,7 +2,7 @@
 
 Simple Docker-based project for learning how to use and extend a REST API.
 
-## Run All Servers (API + DB)
+## Run API Server
 
 Start the long-running backend services:
 
@@ -11,8 +11,6 @@ docker compose up --build
 ```
 
 What runs:
-
-- `db` (PostgreSQL)
 - `api` (Flask)
 
 API endpoint:
